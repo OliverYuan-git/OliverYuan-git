@@ -11,8 +11,7 @@ I'm always open to research collaborations and new opportunities — feel free t
 ## 🔬 Currently Working On
 
 - 🔗 Sandwich attack detection on **Ethereum Layer 2** networks
-- 📈 **NQ100** market prediction model using ML
-- 🔐 Exploring intersections of **AI × Blockchain × Security**
+- 📈 **NQ100** market structural model
 
 ## Tech Stack 💻
 
