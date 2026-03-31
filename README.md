@@ -4,14 +4,15 @@
 
 I'm a graduate student at **Johns Hopkins University** pursuing an M.S. in Security Informatics at the Information Security Institute (ISI). I graduated from **Case Western Reserve University** with a B.S. in Computer Science (AI concentration) and a Minor in Mathematics.
 
-My research interests lie at the intersection of **cybersecurity**, **blockchain security**, and **machine learning**. I'm currently working on building market structural models for NQ100 using ML techniques and sandwich attack detection on Ethereum L2 networks.
+My research interests lie at the intersection of **applied LLM systems**, financial NLP**financial NLP**，**cybersecurity**, **blockchain security**, and **machine learning**. 
 
 I'm always open to research collaborations and new opportunities — feel free to reach out!
 
 ## 🔬 Currently Working On
 
-- 🔗 Sandwich attack detection on **Ethereum Layer 2** networks
 - 📈 **NQ100** market structural model
+- 📰 Financial News Impact Analysis — LLM-based sentiment and geopolitical analysis of policy news across U.S., Hong Kong, and mainland China markets (with Prof. Wenwen Zhang, Sun Yat-sen University)
+- 🔗 MEV Detection on Ethereum L2 — Studying heuristic transferability from L1 to Arbitrum rollups across the EIP-4844 transition (with Prof. Matthew Green, JHU)
 
 ## Tech Stack 💻
 
