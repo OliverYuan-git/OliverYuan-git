@@ -12,7 +12,6 @@ I'm always open to research collaborations and new opportunities — feel free t
 
 - 📈 **NQ100** market structural model
 - 📰 Financial News Impact Analysis — LLM-based sentiment and geopolitical analysis of policy news across U.S., Hong Kong, and mainland China markets (with Prof. Wenwen Zhang, Sun Yat-sen University)
-- 🔗 MEV Detection on Ethereum L2 — Studying heuristic transferability from L1 to Arbitrum rollups across the EIP-4844 transition (with Prof. Matthew Green, JHU)
 
 ## Tech Stack 💻
 
