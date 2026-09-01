@@ -4,7 +4,7 @@
 
 I'm a graduate student at **Johns Hopkins University** pursuing an M.S. in Security Informatics at the Information Security Institute (ISI). I graduated from **Case Western Reserve University** with a B.S. in Computer Science (AI concentration) and a Minor in Mathematics.
 
-My research interests lie at the intersection of **applied LLM systems**, financial NLP**financial NLP**，**cybersecurity**, **blockchain security**, and **machine learning**. 
+My research interests lie at the intersection of **applied LLM systems**, financial NLP**financial NLP**, **blockchain security**, and **machine learning**. 
 
 I'm always open to research collaborations and new opportunities — feel free to reach out!
 
@@ -12,6 +12,7 @@ I'm always open to research collaborations and new opportunities — feel free t
 
 - 📈 **NQ100** market structural model
 - 📰 Financial News Impact Analysis — LLM-based sentiment and geopolitical analysis of policy news across U.S., Hong Kong, and mainland China markets (with Prof. Wenwen Zhang, Sun Yat-sen University)
+- blockchain security on eth
 
 ## Tech Stack 💻
 
