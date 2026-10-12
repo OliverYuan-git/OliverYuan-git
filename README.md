@@ -1,73 +1,39 @@
 # Hi! I'm Oliver (Xianyu Yuan) 👋
 
-## About Me 🎓
+M.S. student in Security Informatics at **Johns Hopkins University** (ISI) · B.S. in Computer Science, **Case Western Reserve University**
 
-I'm a graduate student at **Johns Hopkins University** pursuing an M.S. in Security Informatics at the Information Security Institute (ISI). I graduated from **Case Western Reserve University** with a B.S. in Computer Science (AI concentration) and a Minor in Mathematics.
+## What I Work On 🔬
 
-My research interests lie at the intersection of **applied LLM systems**, financial NLP**financial NLP**, **blockchain security**, and **machine learning**. 
+### 🤖 AI Security — making LLM systems trustworthy when their outputs drive real decisions
+I'm interested in what happens when LLMs are put in charge of high-stakes judgments: where they fail, how to contain those failures, and how to verify them honestly. My view is that an LLM should reason inside hard boundaries, not hold the final say. Its claims should be checked against ground truth rather than against another model's opinion.
 
-I'm always open to research collaborations and new opportunities — feel free to reach out!
+### 📈 NQ100 Market-Analysis System — built solo, running live
+A hybrid Python–LLM system for intraday futures analysis that applies these ideas in production.
+- **Containment architecture**: a deterministic Python engine performs all quantitative computation (key levels, market structure, anomaly signals), the LLM is confined to structured reasoning through a multi-round prompt chain, and programmatic hard overrides enforce every safety-critical constraint
+- **Failure-driven iteration**: 4+ major versions, each driven by failure cases found in live evaluation
+- **Honest evaluation**: every claim is checked against objective forward prices with day-clustered bootstrap and permutation tests (Westfall–Young maxT). LLM judges serve as an independent cross-check, never as ground truth. One result: the classifier's *state* calls carry real signal and its *direction* calls do not, so the direction layer was demoted rather than tuned
+- Live real-time dashboard; now trading micro futures (MNQ, MES, MGC, …)
 
-## 🔬 Currently Working On
+### ⛓️ Blockchain Security — transaction ordering and MEV
+- **Ordering auctions on Arbitrum TimeBoost**: what public auction data does and doesn't establish about revenue and concentration, and the limits of in-protocol fixes (advised by Prof. Matthew Green)
+- **MEV detection on Layer 2**: which L1 detection heuristics carry over to rollups, and why some fail structurally
 
-- 📈 **NQ100** market structural model
-- 📰 Financial News Impact Analysis — LLM-based sentiment and geopolitical analysis of policy news across U.S., Hong Kong, and mainland China markets (with Prof. Wenwen Zhang, Sun Yat-sen University)
-- blockchain security on eth
+### 📰 LLMs as Measurement Instruments
+Using LLMs to turn news into structured, auditable signals, such as a policy shock index from 90k+ headlines, and testing their effect on commodity and equity markets (with Prof. Wenwen Zhang, Sun Yat-sen University).
 
 ## Tech Stack 💻
 
-### Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
-
-### ML / AI
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=for-the-badge&logo=yolo&logoColor=black)
-
-### Web & Tools
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-## Honors & Competitions 🏆
-
-| Competition | Rank |
-|---|---|
-| 🥇 RSNA Lumbar Spine Degenerative Classification | **68 / 1,874** |
-| 🥈 AI Mathematical Olympiad – Progress Prize 1 | **108 / 1,161** |
-| 🥉 LMSYS Chatbot Arena Human Preference Predictions | **120 / 1,849** |
-| 🏅 ISIC 2024 – Skin Cancer Detection with 3D-TBP | **692 / 2,739** |
-
-## Languages 🌏
-
-🇨🇳 Mandarin (Native) · 🇺🇸 English (Fluent) · 🇯🇵 Japanese (Basic)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
+![Dune](https://img.shields.io/badge/Dune_Analytics-F4603E?style=for-the-badge&logoColor=white)
 
 ## Connect With Me 📫
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yxy02oliver@Outlook.com)
+Open to research conversations and collaborations.
+
+[![Email](https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white)](mailto:ooliveryuan@outlook.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OliverYuan-git)
-
-
-<!--
-**OliverYuan-git/OliverYuan-git** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
